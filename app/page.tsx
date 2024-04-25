@@ -1,3 +1,10 @@
-export default function Home() {
-  return <p className=" font-semibold">Hello next auth</p>;
+import { Button } from "@/components/ui/button";
+
+export default function Page() {
+  return (
+    <div>
+      <h1>Page</h1>
+      <Button>Click me</Button>
+    </div>
+  );
 }
